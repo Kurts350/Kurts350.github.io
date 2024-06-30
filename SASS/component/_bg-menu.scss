@@ -1,0 +1,17 @@
+@use "../utils/mixins" as mixins;
+@use "../utils/colors" as colors;
+
+
+.menu {
+  @include mixins.display-column;
+  position: relative;
+  padding: 32px 15px;
+  background-color: colors.$light-grey;
+  border-radius: 60px 60px 0 0;
+  z-index: 1;
+  top: -49px;
+  margin-bottom: -49px;
+  gap: 40px;
+
+}
+

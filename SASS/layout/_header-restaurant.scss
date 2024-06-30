@@ -1,0 +1,16 @@
+@use "../utils/_mixins.scss" as mixins;
+@use "../utils/_colors.scss" as colors;
+// HEADER
+.header {
+    position: relative;
+    &__logo {
+      @include mixins.header-logo;
+      margin: auto;
+    }
+    i {
+      font-size: 30px;
+      position: absolute;
+      left: 17px;
+      top: 19px;
+    }
+  }

@@ -1,0 +1,23 @@
+@use "../utils/mixins" as mixins;
+@use "../utils/colors" as colors;
+
+// FOOTER
+.footer {
+  @include mixins.display-column;
+  gap: 20px;
+  background-color: darken($color: colors.$light-grey, $amount: 80);
+  padding: 25px;
+  color: colors.$white;
+  &__logo {
+    font-family: "Shrikhand", cursive;
+    padding-bottom: 16px;
+    font-size: large;
+  }
+  .footer__container {
+    display: flex;
+    gap: 10px;
+  }
+  .ustensil {
+    gap: 15px;
+  }
+}

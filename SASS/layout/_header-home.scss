@@ -1,0 +1,16 @@
+@use "../utils/_mixins.scss" as mixins;
+@use "../utils/_colors.scss" as colors;
+ // MOBILE DISPLAY HEADER
+  .header {
+  &__logo {
+    @include mixins.header-shadow;
+    @include mixins.header-logo;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+  }
+}
+
+
+
+
