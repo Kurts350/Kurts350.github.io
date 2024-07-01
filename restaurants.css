@@ -14,11 +14,6 @@ body {
 }
 
 .header {
-  display: flex;
-  flex-wrap: wrap;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: relative;
 }
 .header__logo {
@@ -202,6 +197,11 @@ body {
   margin: auto;
   gap: 30px;
   align-items: center;
+}
+.menu__head--div .fa-solid.fa-heart {
+  font-size: 26px;
+  top: -0.5px;
+  left: -0.5px;
 }
 .menu__area {
   display: flex;
