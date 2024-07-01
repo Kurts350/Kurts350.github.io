@@ -174,8 +174,9 @@ body {
 }
 .restaurant .fa-solid.fa-heart {
   position: absolute;
-  top: 20px;
-  right: 30px;
+  font-size: 27px;
+  top: 19.5px;
+  right: 28.5px;
 }
 .restaurant .fa-regular.fa-heart {
   top: 20px;
